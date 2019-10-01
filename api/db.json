@@ -1,0 +1,39 @@
+{
+  "pilots": [
+    {
+      "id": 1,
+      "firstName": "Lee",
+      "lastName": "Adama",
+      "imageUrl": "/assets/adama.png"
+    },
+    {
+      "id": 2,
+      "firstName": "Sharon",
+      "lastName": "Valerii",
+      "imageUrl": "/assets/valerii.png"
+    },
+    {
+      "id": 3,
+      "firstName": "Karl",
+      "lastName": "Ahathon",
+      "imageUrl": "https://assets.wired.com/photos/w_600/wp-content/uploads/2015/08/lumix-GF7-gallery2-600x450.jpg"
+    },
+    {
+      "id": 4,
+      "firstName": "Sysys",
+      "lastName": "Busdsss",
+      "imageUrl": "/assets/unknown-pilot.png"
+    }
+  ],
+  "forbidden-names": [
+    {
+      "name": "Maruda"
+    },
+    {
+      "name": "Ciamajda"
+    },
+    {
+      "name": "Gapcio"
+    }
+  ]
+}

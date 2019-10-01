@@ -1,0 +1,14 @@
+<h1>Intel Browser</h1>
+
+<div class="iframe-select">
+    <select (change)="selectSource($event.target.value)">
+      <option value="">wybierz</option>
+    <option *ngFor="let option of options" [value]="option.url">
+      {{option.name}}
+    </option>
+  </select>
+</div>
+
+<iframe [src]="source" *ngIf="source"></iframe>
+
+

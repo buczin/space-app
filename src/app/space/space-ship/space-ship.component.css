@@ -1,0 +1,47 @@
+:host {
+  display: inline-block;
+  max-width: 130px;
+  margin: 10px;
+  text-align: center;
+}
+h4{
+  margin-block-end: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.health {
+  background-color: red;
+  height: 10px;
+  border-radius: 25px;
+}
+
+.health div {
+  background-color: green;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.property {
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px;
+  color: grey;
+}
+
+.property.active {
+  color: white;
+}
+
+.images {
+  position: relative;
+}
+
+.images .pilot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+}
